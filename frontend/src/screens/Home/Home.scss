@@ -1,0 +1,417 @@
+//Common sections
+h6 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #000;
+}
+
+.community__content {
+  h3 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 1.75rem;
+    color: #8eadc1;
+    width: 80%;
+  }
+
+  p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #2d3941;
+    line-height: 26px;
+    width: 60%;
+    text-align: justify;
+  }
+}
+
+//These are styles for the header
+.header__section {
+  background-image: url('../../assets/headerImg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+  .header__section__content {
+    height: 100vh;
+
+    h3 {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-weight: 600;
+      font-size: 32px;
+      color: #f4f4f4;
+      margin-bottom: 48px;
+    }
+
+    h1 {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-weight: 600;
+      font-size: 72px;
+      color: #f4f4f4;
+      margin-bottom: 72px;
+      width: 60%;
+      text-align: center;
+    }
+  }
+}
+
+//These are styles for the community section
+.community__section {
+  margin-bottom: 160px;
+
+  .community__images {
+    .teamImg__box1,
+    .teamImg__box2 {
+      width: 400px;
+      height: 231px;
+      object-fit: cover;
+      border-radius: 5px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .teamImg__box1 {
+      transform: translateY(32px) !important;
+      z-index: 88 !important;
+      position: relative;
+    }
+
+    .teamImg__box2 {
+      position: relative;
+      transform: translateX(-275px) !important;
+      z-index: -1 !important;
+    }
+  }
+}
+
+//These are styles for the community section
+.recommendation__section {
+  margin-bottom: 100px;
+  background: #395272;
+  height: 480px;
+
+  .img__box {
+    height: 140px;
+    width: 140px;
+    overflow: hidden;
+    border-radius: 50%;
+    transform: translateY(-46px);
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .content__box {
+    width: 80%;
+    background: #46465e;
+    border-radius: 10px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d8d8e6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200 !important;
+    font-size: 0.875rem;
+    padding: 24px 18px 24px 18px;
+    text-align: justify;
+  }
+}
+
+.button__row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+//These are styles for the projects section
+.projects__section {
+  height: 616px;
+  margin-bottom: 100px;
+  .project__card {
+    width: 70%;
+    border-radius: 10px;
+    overflow: hidden;
+    gap: 24px;
+
+    .project-img__box {
+      width: 100%;
+      height: 180px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .project-content__box {
+      height: 278px !important;
+      justify-content: space-between !important;
+
+      h3 {
+        font-family: 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: #8eadc1;
+      }
+
+      p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        font-size: 0.875rem;
+        color: #fff;
+        text-align: justify;
+      }
+
+      .project__button {
+        align-self: flex-start;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 20px 0px 20px;
+        border-radius: 5px;
+        height: 40px;
+        color: #f4f4f4;
+        transition: 0.25s ease-in;
+        box-shadow: -1px 1px 8px #e9bebe;
+
+        &:hover {
+          transform: scale(1.1);
+          gap: 18px !important;
+        }
+      }
+    }
+  }
+
+  .projects__box {
+    position: relative;
+  }
+
+  .projects__color-back {
+    transform: translateY(-250px);
+    position: relative;
+    width: 100%;
+    height: 278px;
+    background: #395272;
+
+    z-index: -5 !important;
+  }
+}
+
+//These are styles for the team section
+.team__section_img {
+  width: 100%;
+  height: 240px;
+  border-radius: 5px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+//These are styles for the management section
+.management__section {
+  margin-top: 220px !important;
+  background: #395272;
+  height: 220px;
+  position: relative;
+  .management__card {
+    transform: translateY(-128px);
+    position: relative;
+    .manager__img_box {
+      width: 80%;
+      height: 220px;
+      margin-bottom: 32px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: -1px 1px 8px #e9bebe;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    h2 {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-weight: 600;
+      font-size: 1.5rem;
+      color: #d1d1d1;
+      margin-bottom: 16px;
+    }
+
+    h5 {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+      font-size: 1rem;
+      color: #f4f4f4;
+    }
+  }
+}
+
+//These are styles for the newsletter section
+.newsletter__section {
+  background: #395272;
+  margin-top: 120px !important;
+  padding: 68px 0px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+  .row {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+  }
+
+  .community__content {
+    h6,
+    p {
+      color: #d1d1d1;
+    }
+
+    h6,
+    p,
+    h3 {
+      width: 100%;
+    }
+
+    padding: 0px 58px;
+  }
+
+  .line__col {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .line__separater {
+      width: 1px;
+      opacity: 50%;
+      height: 90%;
+      background: #d1d1d1;
+    }
+  }
+
+  .form__col {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 58px;
+
+    .form {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+
+      .input-group {
+        height: 42px;
+
+        .input-group-text {
+          border: none;
+          padding: 0px 6px 0px 16px;
+          background: #636ca0;
+          color: #9cc0d8;
+
+          svg {
+            font-size: 20px;
+          }
+        }
+
+        .form-control {
+          border: none;
+          background: #636ca0;
+          color: #9cc0d8;
+          font-family: 'Poppins', sans-serif;
+          font-size: 16px;
+          font-weight: 500;
+
+          &::placeholder {
+            color: #9cc0d8;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+          }
+
+          &:focus {
+            box-shadow: none;
+            outline: none;
+          }
+        }
+      }
+
+      .button__forth {
+        gap: 16px !important;
+        background: #5f6cb8;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: #fafafa;
+        display: flex;
+        align-items: center;
+        box-shadow: -2px 2px 8px #414b88;
+      }
+    }
+  }
+}
+
+//These are styles for footer sections
+.footer__section {
+  padding: 0px !important;
+  .footer__section_content {
+    margin: 32px 0px;
+
+    .col-md-4 {
+      padding: 0 !important;
+      font-family: 'Poppins', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+
+      &:nth-child(1) {
+        display: flex;
+        align-content: center;
+      }
+
+      &:nth-child(2) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      &:nth-child(3) {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        div {
+          display: flex;
+          gap: 16px;
+          svg {
+            height: 24px;
+            width: 24px;
+          }
+        }
+      }
+    }
+  }
+}
