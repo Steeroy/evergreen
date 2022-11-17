@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "cd frontend && npm install --legacy-peer-deps && npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm start"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
